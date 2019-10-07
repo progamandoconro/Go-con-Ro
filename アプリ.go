@@ -24,7 +24,8 @@ package main
         fmt.Print( "¿ Cúal Kanji significa: Kanji ?")
         fmt.Print( "1. 漢字 2. 魚 3. 仕事 4. 女" )
         var q1 int
-        var q2 int    
+        var q2 int
+	var q3 int    
         fmt.Scanln(&q1)  
         if q1 == 1 {
         fmt.Print( "La opción 1. 漢字 es la correcta: 漢字 (かんじ). " )
@@ -35,10 +36,18 @@ package main
         fmt.Print( "1. 刀 2. 日本 3. 会社 4. 侍" )   
         fmt.Scanln(&q2)  
         if q2 == 3 {
+	fmt.Print( "¿ Cúal Kanji significa agua ?")
+        fmt.Print( "1. 速い 2. 一 3. 仕事 4. 水" )  
+	fmt.Scanln(&q3)
+	if q3 == 4 {
+	
+	
+          
            for {
                 fmt.Print( "漢字, 会社, あなたが勝ちます" )
                 time.Sleep(10 * time.Millisecond)
         }
+	}
         }else {
         fmt.Print("No has acertado, intenta de nuevo (pista, 会 significa reunión o congregación)")
         for{
@@ -50,6 +59,4 @@ package main
         fmt.Print( "La opción 1. 漢字 era la correcta: 漢字 (かんじ)" )
 
         }
-        } 
-
-
+        }
