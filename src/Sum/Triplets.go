@@ -29,7 +29,6 @@ func main() {
                 ra2 ,rb2 = 1 ,  0
         }
 
-
 	if a2 < b2 {
                 ra2 , rb2 =  0 , 1
         }
