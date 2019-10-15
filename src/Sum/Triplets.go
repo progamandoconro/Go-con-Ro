@@ -6,7 +6,8 @@ var ra1, ra2, ra3, rb1, rb2, rb3 int
 
 func main() {
 
-	fmt.Scanln(&a1, &a2, &a3 ,&b1, &b2, &b3)
+	fmt.Scanln(&a1, &a2, &a3)
+	fmt.Scanln(&b1, &b2, &b3)
 
         // Round 1
         if a1 == b1 {
@@ -47,3 +48,4 @@ func main() {
         }
 
         fmt.Println(ra1 + ra2 + ra3 , rb1 + rb2 + rb3)
+}
