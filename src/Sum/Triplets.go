@@ -44,7 +44,7 @@ func main() {
         }
 
         if a3 < b3 {
-                ra3 , rb3 = 0,  1
+                ra3 , rb3 = 0 ,  1
         }
 
         fmt.Println(ra1 + ra2 + ra3 , rb1 + rb2 + rb3)
