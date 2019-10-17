@@ -20,8 +20,9 @@ func Fibonacci(n uint) uint64 {
 
 func main (){
         var nth uint
+        fmt.Println("Nth Fibonacci ?")
         fmt.Scan(&nth)
-        time.Sleep(time.Second * 10 )
+        time.Sleep(time.Second * 1 )
 
         for i:= uint(1); i<nth;i++{
 
